@@ -1,0 +1,35 @@
+/* Main background for the page */
+body {
+    background-color: rgb(142, 178, 226);
+}
+
+/* Paragraph color and text-align to the Center of the Page */
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: medium;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header 1 set to have the text center with the same font  */
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+/* switching the display into the center instead of being on the left side of screen */
+.quiz {
+    display: flexbox;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.start-button {
+    display: grid;
+    margin-left: 48.5%;
+    background-color: rgb(255, 255, 255);
+}
