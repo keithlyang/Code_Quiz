@@ -28,8 +28,12 @@ h1 {
 
 }
 
+.correct-answer {
+    margin-left: 45%;
+}
+
 .start-button {
     display: grid;
-    margin-left: 48.5%;
+    margin-left: 48%;
     background-color: rgb(255, 255, 255);
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz</title>
+    <title>Quiz Challenge</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,12 +25,27 @@
 
     </header>
 
-  <main>
-      
-  </main>
+    <!-- question and choice -->
+    <main>
+
+        <div class="quiz">
+
+            <h1 id="question"></h1>
+            <div id="questions"></div>
+            <div class="correct-answer" id="correct-answer"></div>
+        </div>
+
+        <div id="scoreMenu" style="display: none;">
+            <h1> Your Score Is: <span id="score"></span></h1>
+            <p>Enter your Name: <input type="text" id="init"/><button id="submit">Submit</button></p>
+        </div>
+
+
+        
+    </main>
 
     <script src="./java.js"></script>
- 
+    <script src="./viewhighscores.js"></script>
 </body>
 
 </html>
