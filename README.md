@@ -7,14 +7,25 @@ Authors
 https://keithlyang.github.io/Code_Quiz/
 
 Features
+
 -Countdown Timer from 60sec
+
 -Start Quiz Button
+
 -4 Random Questions
+
 -16 Possible Answers
+
 -4 Correct Answers
+
 -0-40 Possible Point based on Answers
+
 -Enter Name Option
+
 -Submit Buttom
+
 -Redirecting to another URL if name submitted
+
 -Ranked Name and Score
+
 -Option to go back quiz and/or clear highscores
